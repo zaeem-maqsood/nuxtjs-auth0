@@ -38,8 +38,8 @@ Of course, change the URL for your environment.
 I had some issues here, please feel free to comment or raise an issue if you know better but for some 
 reason passing the audience parameter or even the additional "additionalTokenParameters" still gave me 
 back an opaque token (without a payload). I tried to check why this could be happening but could not
-figure it out. The audience param is fros sure being sent in the payload. I even grabbed the payload
-before it went out to Auth0 servers and ran it through Postman and got the same problems.
+figure it out. The audience param is for sure being sent in the payload. I even grabbed the payload
+before it went out to Auth0 servers and ran it through Postman and got the same problems [opaque token](https://auth0.com/docs/secure/tokens/access-tokens#opaque-access-tokens) .
 
 I had to go to auth0 and in my settings under General -> API Authorization Settings I added a default audience. 
 This was the only way I didn't get opaque tokens back and got normal JWT tokens.
