@@ -16,7 +16,7 @@ NUXT_OIDC_SESSION_SECRET=48_characters_random_string
 NUXT_OIDC_AUTH_SESSION_SECRET=48_characters_random_string
 ```
 
-Refer to the nust-oidc-auth repo for more instructions on how to generate these values if you need help:
+Refer to the nuxt-oidc-auth repo for more instructions on how to generate these values if you need help:
 [nuxt-oidc-auth](https://github.com/itpropro/nuxt-oidc-auth)
 
 Since we are using Auth0 for this setup we need a few more variables 
